@@ -1,0 +1,188 @@
+
+:root{
+
+    --main-color:rgba(128, 128, 128, 0.116);
+}
+.home{
+    background-image: url(../img/hero-bg.jpg);
+    width: 100%;
+    height: 100vh;
+background-size: 100% 100%;
+    background-position: initial;
+ 
+}
+
+.devfolio{
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 100%;
+    height: 86%;
+}
+.font{
+    font-size: 70px;
+}
+.about{
+    background-color: var(--main-color);
+    overflow: hidden;
+}
+.Service{
+    background-color: var(--main-color);
+   overflow: hidden;
+}
+.serv{
+    width: 85%;
+    height: 100%;
+}
+.service-content{
+    width: 32.5%;
+
+}
+
+
+.service-content:hover .ser{
+
+    background-color: blue;
+    border: solid #ffffffc9 8px ;
+    transition: 0.3s;
+    
+
+
+}
+
+
+
+.ser{
+    width: 37%;
+    height: 40%;
+   
+    border: solid blue 9px ;
+    border-radius: 50%;
+}
+.ayhaga{
+
+    width: 100%;
+    height: 60%;
+    position: relative;
+   
+    margin-top: 50px;
+    
+}
+
+.ayhaga img{
+
+    width: 100%;
+    height: 100%;
+    
+    background-size: 100% 100%;
+
+
+}
+
+
+.ayhaga-i{
+
+    background-color: rgba(0, 0, 255, 0.651);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.yousef2{
+width: 80px;
+height: 80px;
+    border: solid #fff 10px;
+    border-radius: 50%;
+}
+.port{
+    width: 32.5%;
+    height: 90%;
+    background-color: #fff;
+    overflow: hidden;
+   
+}
+.port:hover img {
+
+  transform: scale(1.1,1.1);
+  transition: 0.5s;
+ 
+}
+.portfolio-content{
+    width: 100%;
+    height: 110%;
+  
+}
+
+.div{
+    background-color: #fff;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    color: blue;
+    position: relative;
+    left: 120px;
+    bottom: 20px;
+  
+}
+.cars{
+    background-image: url(../img/overlay-bg.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+
+}
+
+
+.carousel-item img{
+
+
+    width: 130px;
+    height: 130px;
+    border-radius: 50% ;
+    margin: auto;
+    background-color: chartreuse;
+}
+.carousel-caption{
+    position: absolute;
+    bottom: 40%;
+}
+.carousel-inner{
+width: 100%;
+height: 100%;
+    position: absolute;
+    top: 20%;
+}
+
+.blog{
+    position: relative;
+    top: 60%;
+    background-color: var(--main-color);
+}
+.blog-details{
+    width: 33%;
+    height: 100%;
+}
+.blog-details img{
+    width: 90%;
+   
+    
+    
+}
+.blog-details p{
+    width: 75%;
+}
+
+.trav{
+    width: 20%;
+    height: 55%;
+    background-color: blue;
+    position: relative;
+    left: 45%;
+    top: 80%;
+    right: 0;
+    bottom: 0;
+}
+.blog-details p{
+    width: 90%;
+}
